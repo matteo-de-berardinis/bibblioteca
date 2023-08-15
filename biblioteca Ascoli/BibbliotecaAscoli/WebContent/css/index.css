@@ -1,0 +1,59 @@
+.card:hover{
+    
+    transform: scale(102%);
+    transition-delay: 20ms;
+    
+}
+
+
+.custom_size{
+    font-size: 24px;
+  padding: 10px 20px;
+}
+
+body, .info-background{
+    background-image: linear-gradient(90deg, rgb(168, 167, 167), rgb(195, 193, 193), rgb(195, 195, 195), rgb(195, 193, 193),  rgb(168, 167, 167));
+    
+}
+
+.btn-dark:hover{
+    background-color: rgb(195, 9, 9);
+}
+
+.background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+    position: relative;
+
+}
+
+@media (max-width: 768px){
+    .container-fluid{
+        min-height: 30vh;
+    }
+}
+
+.text-center{
+    margin-top: 20px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.cardLocale{
+    background-image: linear-gradient(90deg, rgb(168, 167, 167), rgb(195, 193, 193), rgb(195, 195, 195), rgb(195, 193, 193),  rgb(168, 167, 167));
+
+
+}

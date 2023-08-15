@@ -1,0 +1,38 @@
+.logo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85px;
+    width: 85px;
+}
+
+
+
+.profile-img{
+    margin-top: -5px;
+    margin-right: 5px;
+    background-size: auto 100%; /* Interchange this value depending on prefering width vs. height */
+    width: 70px;
+    height: 70px;
+}
+
+.navbar{
+    font-size:large;
+}
+
+.btnAccesso{
+    width: 100px; 
+    height:50px; 
+    font-size: large
+}
+
+.btnRegistrazione{
+    width: 130px; 
+    height:50px; 
+    font-size: large
+}
+
+.navbar-collapse{
+
+    transition:all .4s;
+}

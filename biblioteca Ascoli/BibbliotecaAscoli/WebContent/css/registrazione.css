@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-container h2 {
+    margin: 0 0 80px 0;
+    color: #dfdae9;
+    font-size: 40px;
+    
+    background-color: #49484d;
+    border: 3px solid rgb(44, 43, 46);
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+  }
+
+  .radio-buttons {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .custom-radio input {
+    display: none;
+  }
+
+  .radio-btn {
+    margin: 10px;
+    background-color: #961414;
+    width: 180px;
+    height: 200px;
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #29020267;
+    cursor: pointer;
+  }
+
+  .radio-btn > i {
+    color: #ffffff;
+    background-image: linear-gradient(120deg, rgb(17, 10, 91), rgb(75, 54, 233), rgb(171, 143, 255), rgb(161, 171, 246));
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) scale(4);
+    border-radius: 50px;
+    padding: 3px;
+    transition: 0.2s;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .radio-btn .hobbies-icon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .radio-btn .hobbies-icon i {
+    color: #d1ced3;
+    line-height: 80px;
+    font-size: 60px;
+  }
+
+  .radio-btn .hobbies-icon h3 {
+    color: #cfcedb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: uppercase;
+  }
+
+  .custom-radio input:checked + .radio-btn {
+    border: 3px solid #8373e6;
+  }
+
+  .custom-radio input:checked + .radio-btn > i {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+
+ .index{
+    
+    background-image: url(https://thumbs.dreamstime.com/b/blurred-vertical-photo-background-life-music-blurred-vertical-photo-background-life-music-concert-stage-colorful-illumination-122211223.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .registrazione{
+    background-image: url(/immagini/backgroundReg.jpg);
+  }
+
+.regArtista{
+  
+  background-image: linear-gradient(120deg, rgb(32, 22, 174), rgb(90, 35, 173), rgb(149, 18, 192), rgb(204, 19, 161))
+    
+}
+
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }   
+    }
+
